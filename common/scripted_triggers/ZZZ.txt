@@ -1,0 +1,3 @@
+ZZZ_is_isolationist = {
+	has_idea = ZZZ_isolationist
+}

@@ -1,0 +1,63 @@
+ZZZ_zombie_category = {
+	ZZZ_zombie_decision = {
+		complete_effect = {
+			add_political_power = 1
+		}
+	}
+}
+
+ZZZ_zombie_awareness_category = {
+	ZZZ_awareness_bump_1 = {
+		complete_effect = {
+			custom_effect_tooltip = ZZZ_awareness_bump_small
+			hidden_effect = {
+				random_list = {
+					50 = {
+						add_to_variable = {
+							var = zombie_awareness
+							value = 1.75
+						}
+					}
+					50 = {
+						add_to_variable = {
+							var = zombie_awareness
+							value = 2.50
+						}
+					}
+				}
+			}
+		}
+	}
+	ZZZ_counter_fort_building = {
+		visible = {
+			check_variable = {
+				var = zombie_awareness
+				value > 10.0
+			}
+		}
+		fire_only_once = yes
+		complete_effect = {
+			custom_effect_tooltip = ZZZ_single_use_decision
+			add_timed_idea = {
+				idea = ZZZ_counter_fort_building_idea
+				days = 180
+			}
+		}
+	}
+	# TODO: Restore this
+	#use = {
+	#	complete_effect = {
+	#		set_temp_variable = {
+	#			temp_var = zombie_awareness
+	#		}
+	#		set_temp_variable = {
+	#			base = 1000
+	#		}
+	#		divide_temp_variable = { temp_var = 100 }
+	#		multiply_temp_variable = {
+	#			base = temp_var
+	#		}
+	#		add_political_power = base
+	#	}
+	#}
+}

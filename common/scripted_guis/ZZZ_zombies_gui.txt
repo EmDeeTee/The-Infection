@@ -1,0 +1,18 @@
+scripted_gui = {
+	ZZZ_zombies_gui = {
+		context_type = decision_category
+		window_name = "zzz_zombie_gui"
+		
+		properties = {
+			text = {
+				
+			}
+		}
+	}
+
+	ZZZ_zombie_awareness_gui = {
+		context_type = decision_category
+		window_name = "ZZZ_zombie_awareness_gui"
+	}
+}
+

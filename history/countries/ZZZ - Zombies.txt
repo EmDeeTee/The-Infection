@@ -1,0 +1,32 @@
+capital = 424
+
+set_technology = {
+	infantry_weapons = 1
+	tech_trucks = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 100
+}
+
+recruit_character = ZZZ_leader
+
+add_ideas = {
+	ZZZ_zombie_horde
+	ZZZ_evolution_0
+	zombie_conscription
+	closed_economy
+	#ZZZ_zombie_economy
+}
+
+set_convoys = 0
+

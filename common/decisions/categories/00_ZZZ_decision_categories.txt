@@ -1,0 +1,20 @@
+ZZZ_zombie_category = {
+	visible = {
+		ZZZ = {
+			exists = yes
+		}
+	}
+	priority = 100
+	scripted_gui = ZZZ_zombies_gui
+}
+
+ZZZ_zombie_awareness_category = {
+	visible = {
+		check_variable = {
+			var = zombie_awareness
+			value > 0.01
+		}
+	}
+	priority = 100
+	scripted_gui = ZZZ_zombie_awareness_gui
+}

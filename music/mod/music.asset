@@ -1,0 +1,6 @@
+# ZOMBIE THEME
+music = {
+	name = "zombietheme"
+	file = "ZombieTheme.ogg"
+	volume = 0.65
+}

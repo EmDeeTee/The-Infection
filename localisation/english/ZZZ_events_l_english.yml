@@ -1,0 +1,32 @@
+﻿l_english:
+ zzz_outbreak.1.t:0 "A New Virus"
+ zzz_outbreak.1.desc:0 "Today, the World Health Organisation has announced the discovery of a new virus found in India codenamed 'Black Atlanta'. Details are scant, but reports confirm a singular infection identified in an as-yet-unnamed individual."
+ zzz_outbreak.1.a:0 "OK"
+
+ zzz_outbreak.2.t:0 "The Symptoms"
+ zzz_outbreak.2.desc:0 "Now, that time has passed, more information about the 'Black Atlanta' is available.\n\nPatients are reporting symptoms such as fatigue, mild skin irritation, headaches, and a subtle loss of hearing and sight. Additionally, some individuals are experiencing elevated temperatures. One concerning observation is a seeming desensitization to physical pain in infected patients, though further medical assessments are underway to understand the full extent of this unusual phenomenon."
+ zzz_outbreak.2.a:0 "OK"
+
+ zzz_outbreak.3.t:0 "The Quarantine"
+ zzz_outbreak.3.desc:0 "Turns out, more people in India are infected than initially thought. The WHO and the Indian government have issued a quarantine in the affected region.\n\nMoreover, there are some unofficial reports sayng, that 'Black Atlanta' has the ability to reanimate the dead. What a joke!... right?\n\n§RZombie awarness§! mechanic becomes available. It represents how aware your population is of the looming zombie threat. The quicker you can make your people understand the threat, the sooner you can issue countermeasures. Do it before it's too late.\n\n You can check your §RZombie awarness§! in the decisions tab."
+ zzz_outbreak.3.a:0 "OK"
+
+ zzz_outbreak.4.t:0 "Too Many Infected"
+ zzz_outbreak.4.desc:0 "Reports are pouring in, saying that Indian authorities are being overwhelmed by the virus. Apparently, some patients have escaped the quarantine area and possibly infected other people. Moreover, the symptoms have taken a more severe turn, with reports suggesting that the infected individuals are experiencing skin deterioration, leading to rotting and shedding."
+ zzz_outbreak.4.a:0 "OK"
+
+ zzz_outbreak.5.t:0 "Dead Rising"
+ zzz_outbreak.5.desc:0 "Dead are rising! The news spread over the Internet like a wildfire. hundreds of videos flood online platforms depicting corpses that defy the natural order - things that shouldn't move, yet they are moving, flinching. Exposed bone and muscle. Rotten skin falling off.\n\nThe §RZOMBIE HORDE§! has risen. now, the rotten people are slow and weak... But §RTHEY ARE BILLIONS§! and will §OEVOLVE§! over time. You can check the current zombie statistics in the decisions tab."
+ zzz_outbreak.5.a:0 "..."
+
+ zzz_outbreak.6.t:0 "ZCOM"
+ zzz_outbreak.6.desc:0 "ZCOM SPAWNS"
+ zzz_outbreak.6.a:0 "veri gud"
+
+ ZZZ_awareness_start:0 "§YPeople all over the World start to become a bit concerned with the situation.§!"
+ ZZZ_awareness_bump_small:0 "Increases the §YZombie awarness§! slightly."
+ ZZZ_awareness_bump_medium:0 "Increases the §YZombie awarness§! fairly."
+ ZZZ_awareness_bump_big:0 "Increases the §YZombie awarness§! §Rmassively§!."
+ ZZZ_awareness_max:0 "§YPeople are now aware of zombies§!"
+ ZZZ_horde_spawns:0 "The §RZOMBIE HORDE§! spawns"
+ ZZZ_single_use_decision:0 "This decision is §Ysingle use§!"

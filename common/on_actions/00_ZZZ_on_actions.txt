@@ -1,0 +1,34 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_possible_country = {
+				country_event = {
+					id = zzz_outbreak.1
+					months = 1
+				}
+				country_event = {
+					id = zzz_outbreak.2
+					months = 2
+				}
+				country_event = {
+					id = zzz_outbreak.3
+					months = 3
+				}
+				country_event = {
+					id = zzz_outbreak.4
+					months = 5
+				}
+				country_event = {
+					id = zzz_outbreak.5 # ZOMBIEEES
+					months = 6
+				}
+				country_event = {
+					id = zzz_outbreak.6 # ZCOM SPAWNS
+					months = 8
+				}
+				set_variable = { zombie_awareness = 0.00 } 
+			}
+			set_variable = { global.zombie_evolution_level = 0.00 } 
+		}
+	}
+}

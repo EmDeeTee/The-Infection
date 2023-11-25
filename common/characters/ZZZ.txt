@@ -1,0 +1,13 @@
+characters = {
+	ZZZ_leader = {
+		name = "Zombie"
+		portraits = {
+			civilian = {
+				large="GFX_portrait_ZZZ_leader"
+			}
+		}
+		country_leader = {
+			ideology = falangism
+		}
+	}
+}

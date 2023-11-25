@@ -1,0 +1,6 @@
+d_add_zombie_awareness = {
+	add_to_variable = {
+		var = zombie_awareness
+		value = args^0
+	}
+}

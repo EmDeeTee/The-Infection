@@ -1,0 +1,6 @@
+﻿l_english:
+ ZZZ_zombie_gui_text:0 "Current §Yevolution§! level: [?global.zombie_evolution_level|0.0R-]\nApporox. number of zombies: [?ZZZ.manpower_k|R0.0-] thousand"
+ ZZZ_zombie_gui_tooltip:0 "§YEvolution§! level of the zombies will increase over time, making them faster, more resilient and dangerous\n\n§RZombies§! grow stronger by taking over a province. Each month, they mercilessly claim a portion of the state's population, adding to their manpower pool."
+
+ ZZZ_zombie_awareness_gui_text:0 "Our current §Yzombie awarness§! is: [?zombie_awareness|+%%]\n\nSome countermeasures scale with with §Yzombie awarness§! meaning, they become more effective the more §Yzombie awarness§! you have."
+ ZZZ_zombie_awareness_gui_text_tooltip:0 "Effective countermeasures can only be issued with a high level of §Yzombie awarness§!. You have to work on getting this high."
