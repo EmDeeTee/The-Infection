@@ -20,8 +20,9 @@
  zzz_outbreak.5.a:0 "..."
 
  zzz_outbreak.6.t:0 "ZCOM"
- zzz_outbreak.6.desc:0 "ZCOM SPAWNS"
- zzz_outbreak.6.a:0 "veri gud"
+ zzz_outbreak.6.desc:0 "Today We have received word, that an international military organisation called "ZCOM" has been established in Iceland. Governments around the world join efforts to combat the zombie threat. Such an operation on a global scale will cost a massive amount of money. So much so, that even the wealthiest country cannot fund it on their own.\n\nBecome §Gsupportive§! of the newfound organisation and join with intentions of sending aid and potentially give all countries a better fighting chance\n\nOR\n\nBecome §Risolationist§! and try to defend against the threat alone"
+ zzz_outbreak.6.a:0 "We will join the effort"
+ zzz_outbreak.6.b:0 "We are better off on our own"
 
  ZZZ_awareness_start:0 "§YPeople all over the World start to become a bit concerned with the situation.§!"
  ZZZ_awareness_bump_small:0 "Increases the §YZombie awarness§! slightly."
@@ -29,4 +30,9 @@
  ZZZ_awareness_bump_big:0 "Increases the §YZombie awarness§! §Rmassively§!."
  ZZZ_awareness_max:0 "§YPeople are now aware of zombies§!"
  ZZZ_horde_spawns:0 "The §RZOMBIE HORDE§! spawns"
+ ZZZ_become_supportive_tt:0 "[THIS.GetName] becomes §Gsupportive§! of international cooperation"
+ ZZZ_become_isolationist_tt:0 "[THIS.GetName] becomes §Yisolated§! from international cooperation"
+
+
  ZZZ_single_use_decision:0 "This decision is §Ysingle use§!"
+ ZZZ_send_funds_tt:0 "Send §G$100 billion§! to §3ZCOM§!"

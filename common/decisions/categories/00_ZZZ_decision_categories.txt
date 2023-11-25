@@ -18,3 +18,17 @@ ZZZ_zombie_awareness_category = {
 	priority = 100
 	scripted_gui = ZZZ_zombie_awareness_gui
 }
+
+ZZZ_zcom_category = {
+	visible = {
+		ZCO = {
+			exists = yes
+		}
+		NOT = {
+			tag = ZCO
+		}
+		has_idea = ZZZ_international_supportive
+	}
+	priority = 90
+	scripted_gui = ZZZ_zcom_gui
+}

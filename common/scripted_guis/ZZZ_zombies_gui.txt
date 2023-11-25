@@ -14,5 +14,10 @@ scripted_gui = {
 		context_type = decision_category
 		window_name = "ZZZ_zombie_awareness_gui"
 	}
+
+	ZZZ_zcom_gui = {
+		context_type = decision_category
+		window_name = "ZZZ_zcom_gui"
+	}
 }
 

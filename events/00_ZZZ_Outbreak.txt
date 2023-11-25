@@ -107,8 +107,36 @@ country_event = { # ZCOM spawns
 
 	is_triggered_only = yes
 
+	immediate = {
+		hidden_effect = {
+			100 = {
+				add_core_of = ZCO
+				ZCO = {
+					set_state_owner = 100
+					set_state_controller = 100
+					create_faction = "ZCOM"
+				}
+			}
+		}
+	}
+
 	option = {
 		name = zzz_outbreak.6.a
+		custom_effect_tooltip = ZZZ_become_supportive_tt
+		hidden_effect = {
+			add_ideas = ZZZ_international_supportive
+			ZCO = {
+				add_to_faction = PREV
+			}
+		}
 		
+	}
+	option = {
+		name = zzz_outbreak.6.b
+		custom_effect_tooltip = ZZZ_become_isolationist_tt
+		hidden_effect = {
+			
+			add_ideas = ZZZ_isolationist
+		}
 	}
 }

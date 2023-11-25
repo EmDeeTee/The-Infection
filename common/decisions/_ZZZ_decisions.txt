@@ -61,3 +61,17 @@ ZZZ_zombie_awareness_category = {
 	#	}
 	#}
 }
+
+ZZZ_zcom_category = {
+	ZZZ_zcom_send_pp = {
+		name = "Send financial aid"
+		complete_effect = {
+			custom_effect_tooltip = ZZZ_send_funds_tt
+			hidden_effect = {
+				ZCO = {
+					add_political_power = 100
+				}
+			}
+		}
+	}
+}

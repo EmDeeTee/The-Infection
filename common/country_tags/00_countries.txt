@@ -1,4 +1,5 @@
 ZZZ = "countries/Zombies.txt"
+ZCO = "countries/Zcom.txt"
 GER	= "countries/Germany.txt"
 ENG = "countries/United Kingdom.txt"
 SOV = "countries/Soviet Union.txt"

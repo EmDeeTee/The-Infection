@@ -24,7 +24,7 @@ on_actions = {
 				}
 				country_event = {
 					id = zzz_outbreak.6 # ZCOM SPAWNS
-					months = 8
+					months = 10
 				}
 				set_variable = { zombie_awareness = 0.00 } 
 			}

@@ -4,3 +4,6 @@
 
  ZZZ_zombie_awareness_gui_text:0 "Our current §Yzombie awarness§! is: [?zombie_awareness|+%%]\n\nSome countermeasures scale with with §Yzombie awarness§! meaning, they become more effective the more §Yzombie awarness§! you have."
  ZZZ_zombie_awareness_gui_text_tooltip:0 "Effective countermeasures can only be issued with a high level of §Yzombie awarness§!. You have to work on getting this high."
+
+ ZZZ_zcom_gui_text:0 "Current §3ZCOM§! §Yfunds§!: [?ZCO.political_power|0.0+]$ billion\nCurrent upkeep of the whole operation is: [?ZCO.political_power_daily|+0.1] billion daily"
+ ZZZ_zcom_gui_tooltip:0 "If §3ZCOM's§! §Yfunding§! will decline, for example when more countries are being destoryed directly, or indirectly by zombies, they won't be able to pay and keep §3ZCOM§! running. If §3ZCOM's§! runs out of funds - they bancrupt and §RALL HOPE IS LOST§!\n\n§3ZCOM§! can entact §Greforms§! and §Gactions§! to prevent governments (you) from falling and improving combat ability against §RZOMBIES§!"

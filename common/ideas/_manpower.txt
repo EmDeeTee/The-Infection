@@ -70,7 +70,7 @@ ideas = {
 			}
 
 			modifier = {
-				conscription = 0.005
+				conscription = 0.003
 			}
 
 			default = yes
