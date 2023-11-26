@@ -29,6 +29,7 @@ add_ideas = {
 }
 
 set_convoys = 100
+add_political_power = 2000
 
 add_to_array = {
 	array = global.ZZZ_zcom_possible_host_states

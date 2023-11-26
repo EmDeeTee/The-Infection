@@ -25,9 +25,6 @@
  zzz_outbreak.6.b:0 "We are better off on our own"
 
  ZZZ_awareness_start:0 "§YPeople all over the World start to become a bit concerned with the situation.§!"
- ZZZ_awareness_bump_small:0 "Increases the §YZombie awarness§! slightly."
- ZZZ_awareness_bump_medium:0 "Increases the §YZombie awarness§! fairly."
- ZZZ_awareness_bump_big:0 "Increases the §YZombie awarness§! §Rmassively§!."
  ZZZ_awareness_max:0 "§YPeople are now aware of zombies§!"
  ZZZ_horde_spawns:0 "The §RZOMBIE HORDE§! spawns"
  ZZZ_become_supportive_tt:0 "[THIS.GetName] becomes §Gsupportive§! of international cooperation"
@@ -35,4 +32,14 @@
 
 
  ZZZ_single_use_decision:0 "This decision is §Ysingle use§!"
- ZZZ_send_funds_tt:0 "Send §G$100 billion§! to §3ZCOM§!"
+ ZZZ_send_funds_tt:0 "Send §G$[?THIS.num_of_civilian_factories_available_for_projects] billion§! to §3ZCOM§!\nThe amount you send depends on your civilian industry. Build more §Ycivilian factories§! to be able to send more"
+ ZZZ_cant_send_aid_tt:0 "We don't have any more funds left to send!"
+ ZZZ_awareness_bump_small:0 "Increases the §YZombie awarness§! slightly."
+ ZZZ_awareness_bump_medium:0 "Increases the §YZombie awarness§! fairly."
+ ZZZ_awareness_bump_big:0 "Increases the §YZombie awarness§! §Rmassively§!."
+ ZZZ_awareness_bump_1:0 "Silent awareness campaign"
+ ZZZ_awareness_bump_1_desc:0 "We can silently put zombies on minds of our citizens by silently promoting the idea. Put books about zombies in libraries, pay game developers to make games about zombies and give them away for free, film "documentaries" about a very "theoretical" scenario of a zombie apocalypse.\n\nBy doing this, We can make our people more paranoid. Not very effective, but cheap and safe."
+ ZZZ_awareness_bump_2:0 "Army Exercise"
+ ZZZ_awareness_bump_2_desc:0 ""
+ ZZZ_awareness_bump_3:0 "Open Anti-Zombie Propaganda"
+ ZZZ_awareness_bump_3_desc:0 "The people will think that you are insane, but by openly admitting the zombie threat, We are sure to bing a lot of attention to the cause.\n\nVery drastic and very effective"

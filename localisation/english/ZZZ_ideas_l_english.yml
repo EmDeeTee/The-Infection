@@ -1,2 +1,9 @@
 ﻿l_english:
- 
+ ZZZ_zcom_base:0 "ZCOM BASE"
+ ZZZ_zcom_base_desc:0 "This is the §3ZCOM's§! base."
+ ZZZ_diverted_economy_1:0 "Diverting §Gsome§! funds"
+ ZZZ_diverted_economy_2:0 "Diverting §9moderate§! funds"
+ ZZZ_diverted_economy_3:0 "Diverting §Rmassive§! funds"
+ ZZZ_diverted_economy_1_desc:0 "We are diverting a small amount of our funds to aid ZCOM"
+ ZZZ_diverted_economy_2_desc:0 "We are diverting most of our funds to ZCOM."
+ ZZZ_diverted_economy_3_desc:0 "We are diverting almost everything We have to aid ZCOM!"

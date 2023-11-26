@@ -1,6 +1,5 @@
 ideas = {
 	country = {
-
 		ZZZ_isolationist = {
 			picture = GFX_idea_idea_generic_fortify_the_borders
 		}
@@ -36,9 +35,32 @@ ideas = {
 		}
 
 		ZZZ_zcom_base = {
-			name = "ZCOM BASE"
 			modifier = {
-				political_power_cost = 2.10
+				political_power_cost = 2.00
+			}
+		}
+
+		ZZZ_diverted_economy_1 = {
+			modifier = {
+				production_speed_buildings_factor = -0.25
+				industrial_capacity_factory = -0.25
+				political_power_gain = -0.2
+			}
+		}
+
+		ZZZ_diverted_economy_2 = {
+			modifier = {
+				production_speed_buildings_factor = -0.50
+				industrial_capacity_factory = -0.50
+				political_power_gain = -0.35
+			}
+		}
+
+		ZZZ_diverted_economy_3 = {
+			modifier = {
+				production_speed_buildings_factor = -0.80
+				industrial_capacity_factory = -0.80
+				political_power_gain = -0.5
 			}
 		}
 	}

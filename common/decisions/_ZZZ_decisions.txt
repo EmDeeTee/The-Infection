@@ -8,20 +8,98 @@ ZZZ_zombie_category = {
 
 ZZZ_zombie_awareness_category = {
 	ZZZ_awareness_bump_1 = {
+		visible = {
+			NOT = {
+				check_variable = {
+					var = zombie_awareness
+					value = 100
+				}
+			}
+		}
+		available = {
+			has_political_power > 34
+		}
+		days_re_enable = 30
 		complete_effect = {
 			custom_effect_tooltip = ZZZ_awareness_bump_small
+			add_political_power = -35
 			hidden_effect = {
 				random_list = {
 					50 = {
 						add_to_variable = {
 							var = zombie_awareness
-							value = 1.75
+							value = 5.01
 						}
 					}
 					50 = {
 						add_to_variable = {
 							var = zombie_awareness
-							value = 2.50
+							value = 7.00
+						}
+					}
+				}
+			}
+		}
+	}
+	ZZZ_awareness_bump_2 = {
+		visible = {
+			NOT = {
+				check_variable = {
+					var = zombie_awareness
+					value = 100
+				}
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = ZZZ_awareness_bump_medium
+			hidden_effect = {
+				random_list = {
+					50 = {
+						add_to_variable = {
+							var = zombie_awareness
+							value = 3.55
+						}
+					}
+					50 = {
+						add_to_variable = {
+							var = zombie_awareness
+							value = 5.12
+						}
+					}
+				}
+			}
+		}
+	}
+	ZZZ_awareness_bump_3 = {
+		visible = {
+			NOT = {
+				check_variable = {
+					var = zombie_awareness
+					value = 100
+				}
+			}
+		}
+		fire_only_once = yes
+		available = {
+			has_political_power > 149
+		}
+		complete_effect = {
+			custom_effect_tooltip = ZZZ_awareness_bump_big
+			custom_effect_tooltip = ZZZ_single_use_decision
+			add_stability = -0.33
+			add_political_power = -150
+			hidden_effect = {
+				random_list = {
+					50 = {
+						add_to_variable = {
+							var = zombie_awareness
+							value = 43.34
+						}
+					}
+					50 = {
+						add_to_variable = {
+							var = zombie_awareness
+							value = 55.78
 						}
 					}
 				}
@@ -65,13 +143,74 @@ ZZZ_zombie_awareness_category = {
 ZZZ_zcom_category = {
 	ZZZ_zcom_send_pp = {
 		name = "Send financial aid"
+		available = {
+			NOT = {
+				has_idea = ZZZ_diverted_economy_3
+			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				ZCO = {
+					has_political_power < 1500
+				}
+				add = 1
+			}
+			modifier = {
+				has_idea = ZZZ_diverted_economy_1
+				factor = -1
+			}
+			modifier = { # Keeping ZCOM alive is VERY important. If a country notices, that they are lacking funds, it should be their first priority to send some
+				ZCO = {
+					has_political_power < 200
+				}
+				factor = 4
+			}
+		}
 		complete_effect = {
 			custom_effect_tooltip = ZZZ_send_funds_tt
-			hidden_effect = {
-				ZCO = {
-					add_political_power = 100
+			if = {
+				limit = { has_idea = ZZZ_diverted_economy_1 }
+				remove_ideas = ZZZ_diverted_economy_1
+				add_timed_idea = {
+					idea = ZZZ_diverted_economy_2
+					days = 180
 				}
 			}
+			else_if = {
+				limit = { has_idea = ZZZ_diverted_economy_2 }
+				remove_ideas = ZZZ_diverted_economy_2
+				add_timed_idea = {
+					idea = ZZZ_diverted_economy_3
+					days = 240 # The economy takes a bigger hit
+				}
+			}
+			else_if = {
+				limit = { has_idea = ZZZ_diverted_economy_3 }
+				custom_effect_tooltip = ZZZ_cant_send_aid_tt
+			}
+			else = {
+				add_timed_idea = {
+					idea = ZZZ_diverted_economy_1
+					days = 180
+				}
+			}
+			hidden_effect = {
+				ZCO = {
+					add_political_power = PREV.num_of_civilian_factories_available_for_projects	
+				}
+			}
+		}
+	}
+
+	ZZZ_zcom_send_manpower = {
+		name = "Send manpower"
+
+		complete_effect = {
+			ZCO = {
+				add_manpower = 10000
+			}
+			add_manpower = -10000
 		}
 	}
 }

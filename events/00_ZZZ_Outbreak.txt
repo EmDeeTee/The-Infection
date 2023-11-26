@@ -86,14 +86,19 @@ country_event = { # Zombies spawned
 			424 = {
 				set_state_controller_to = ZZZ
 				set_state_owner_to = ZZZ
-				add_manpower = -10000
+				add_manpower = -100
 			}
 			ZZZ = {
 				declare_war_on = {
 					target = RAJ
 					type = annex_everything
 				}
-				add_manpower = 10000
+				add_manpower = 100
+				load_oob = ZZZ_1936
+				add_equipment_to_stockpile = { # Since units in this game can't have no equipment. Zombie units require 1 infantry equipment per 2000 strong batalion
+					type = infantry_equipment
+					amount = 10000000
+				}
 			}
 			goto_state = 424
 		}

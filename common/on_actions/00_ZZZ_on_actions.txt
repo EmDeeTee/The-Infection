@@ -27,6 +27,7 @@ on_actions = {
 					months = 10
 				}
 				set_variable = { zombie_awareness = 0.00 } 
+				set_war_support = 0.00
 			}
 			set_variable = { global.zombie_evolution_level = 0.00 } 
 		}
