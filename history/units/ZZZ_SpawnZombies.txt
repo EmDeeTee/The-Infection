@@ -1,0 +1,22 @@
+﻿units = {
+	division = {
+		location = 424
+		division_template = "Zombies"
+	}
+	division = {
+		location = 424
+		division_template = "Zombies"
+	}
+	division = {
+		location = 424
+		division_template = "Zombies"
+	}
+	division = {
+		location = 424
+		division_template = "Zombies"
+	}
+	division = {
+		location = 424
+		division_template = "Zombies"
+	}
+}

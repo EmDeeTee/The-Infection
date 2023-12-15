@@ -94,7 +94,8 @@ country_event = { # Zombies spawned
 					type = annex_everything
 				}
 				add_manpower = 100
-				load_oob = ZZZ_1936
+				load_oob = "ZZZ_1936"
+				load_oob = "ZZZ_SpawnZombies"
 				add_equipment_to_stockpile = { # Since units in this game can't have no equipment. Zombie units require 1 infantry equipment per 2000 strong batalion
 					type = infantry_equipment
 					amount = 10000000

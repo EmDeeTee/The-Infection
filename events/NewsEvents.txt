@@ -1,1 +1,16 @@
-﻿
+﻿add_namespace = news
+
+news_event = {
+	id = news.ZZZ.1
+	title = "Kok of the sos"
+	desc = "Sos of the kok"
+	picture = GFX_news_event_001
+
+	major = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "yej"
+		add_political_power = 1
+	}
+}
